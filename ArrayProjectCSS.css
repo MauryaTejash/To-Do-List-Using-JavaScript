@@ -1,0 +1,33 @@
+body{
+    font-family: arial;
+}
+.js-list, .js-input{
+    display: grid;
+    grid-template-columns: 180px 130px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+.js-input{
+    margin-bottom: 10px;
+    align-items: stretch;
+}
+.js-name, .js-date{
+    font-size: 15px;
+    padding: 6px;
+}
+.add-button{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.js-button-class{
+    background-color: darkred;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 0;
+}
